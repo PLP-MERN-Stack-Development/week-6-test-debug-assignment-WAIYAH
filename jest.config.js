@@ -1,5 +1,7 @@
 module.exports = {
   projects: [
+
+    // Client-side tests configuration
     {
       displayName: 'client',
       testMatch: ['<rootDir>/client/src/**/*.test.{ts,tsx}'],
@@ -20,6 +22,8 @@ module.exports = {
       ],
       coverageDirectory: 'coverage/client',
     },
+
+    // Server-side tests configuration
     {
       displayName: 'server',
       testMatch: ['<rootDir>/server/tests/**/*.test.js'],
@@ -35,6 +39,12 @@ module.exports = {
       coverageDirectory: 'coverage/server',
     },
   ],
+
+  // Global Jest configuration
+  verbose: true,
+  // Enable verbose output for better debugging
+  testTimeout: 30000, // Set a timeout for tests
+  
   collectCoverageFrom: [
     'client/src/**/*.{ts,tsx}',
     'server/**/*.js',

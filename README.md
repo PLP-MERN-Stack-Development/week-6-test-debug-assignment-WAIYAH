@@ -14,7 +14,7 @@ A comprehensive MERN stack application demonstrating testing strategies, debuggi
 ## 📁 Project Structure
 
 ```
-week-6-final/
+WEEK-6-TEST-DEBUG-ASSIGNMENT-WAIYAH/
 ├── client/                     # React frontend
 │   ├── src/
 │   │   ├── components/         # Reusable React components
@@ -64,7 +64,7 @@ week-6-final/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd week-6-final
+   cd WEEK-6-TEST-DEBUG-ASSIGNMENT-WAIYAH
    ```
 
 2. **Install all dependencies**
