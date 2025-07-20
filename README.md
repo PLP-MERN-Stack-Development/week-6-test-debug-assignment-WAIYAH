@@ -122,7 +122,7 @@ cd server && npm run test:watch  # Watch mode
 
 ## 📊 Test Coverage
 
-The project maintains **80%+ test coverage** across:
+The project maintains **70%+ test coverage** across:
 
 ### Frontend Testing
 - **Component Tests**: All React components tested for rendering and user interactions
